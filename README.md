@@ -19,4 +19,9 @@ perturbedZernikes/senM35/
 
 * each file has 35 rows, for 9 fields, and 24 columns, for z1-z22 then residual RMS and PV RMS
 
+perturbedZernikes/senM189/
+
+* 101 files = 50 (DOFs) x 2 (+ and -) + intrinsic
+
+* each file has 189 rows, for 9 fields, and 24 columns, for z1-z22 then residual RMS and PV RMS
 
