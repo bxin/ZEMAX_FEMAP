@@ -1,0 +1,54 @@
+Listing of Zernike Annular Coefficient Data
+
+File : C:\wavefront\zemax\LSST_Corner\LSSTv33_1c1w_As_CornerNoComp_x3_gridSag.ZMX
+Title: Basic3C17F5W_Tolerance_MonteCarlo_More
+Date : 4/17/2021
+Configuration 3 of 3
+
+Note that RMS (to chief) is the RMS of the OPD after subtracting out piston.
+The RMS (to centroid) is the RMS after subtracting out both piston and tilt.
+The RMS (to centroid) is most physically significant and is generally what
+is meant by 'the RMS'. Although OpticStudio uses the term 'centroid' for brevity,
+the reference point is not the diffraction intensity centroid, but the reference
+point which minimizes the variance of the wavefront.
+
+Using Zernike Annular polynomials.
+OPD referenced to chief ray.
+
+Surface                      :	Image
+Field                        :	0.0000, 0.0000 (deg)
+Wavelength                   :	0.5000 m
+Obscuration                  :	0.6100
+
+Peak to Valley (to chief)    :	    0.31565404 waves
+Peak to Valley (to centroid) :	    0.31565404 waves
+RMS (to chief)               :	    0.09531489 waves
+RMS (to centroid)            :	    0.09531489 waves
+Variance                     :	    0.00908493 waves squared
+Strehl Ratio (Est)           :	    0.69861283
+
+RMS fit error                :	    0.00254892 waves
+Maximum fit error            :	    0.00888756 waves
+
+Z   1	   -0.14192936
+Z   2	    0.00000000
+Z   3	    0.00000000
+Z   4	    0.04483049
+Z   5	    0.00000000
+Z   6	    0.00000000
+Z   7	    0.00000000
+Z   8	    0.00000000
+Z   9	    0.00000000
+Z  10	    0.00000000
+Z  11	    0.08050819
+Z  12	    0.00000000
+Z  13	    0.00000000
+Z  14	   -0.00000651
+Z  15	    0.00000000
+Z  16	    0.00000000
+Z  17	    0.00000000
+Z  18	    0.00000000
+Z  19	    0.00000000
+Z  20	    0.00000000
+Z  21	    0.00000000
+Z  22	   -0.02646731

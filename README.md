@@ -13,6 +13,18 @@ perturbedZernikes/comcam/
 
 * each file has 9 rows, for 9 fields, and 24 columns, for z1-z22 then residual RMS and PV RMS
 
+ZEMAX/LSSTv33_1c1w_As_CornerNoComp_x3_gridSag.zmx
+
+* Zemax file (v3.3, modified to g-band, 500nm only, multi-config for 1.5mm, -1.5mm, and in focus); match to ZEMAX/ZernikeAnnularCoeff.txt before use.
+
+ZEMAX/LSSTv33_1c1w_As_CornerNoComp_x3_gridSag.CFG
+
+*. config file for the above ZEMAX file
+
+ZEMAX/ZernikeAnnularCoeff.txt
+
+* Zernike Annular Coefficients for 500nm g-band design. Used for verifying the Zemax model has been configured correctly.
+
 perturbedZernikes/senM35/
 
 * 101 files = 50 (DOFs) x 2 (+ and -) + intrinsic
