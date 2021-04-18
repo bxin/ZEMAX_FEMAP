@@ -49,4 +49,8 @@ intrinsicByBand/lsstfam/
 
 * intrinsic aberrations for lsstfam (189 fields), by band, at its effective wavelength (as defined in LSE-40)
 
+senM/
+
+* sensitivity matrices for comcam, lsst, lsstfam, in both txt and yaml formats
+
 
