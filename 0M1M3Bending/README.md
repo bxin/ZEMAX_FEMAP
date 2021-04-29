@@ -13,7 +13,7 @@ https://github.com/lsst-sitcom/M1M3_ML/blob/master/data/myUdn3norm_156.mat
 
 2bendingModes/m1m3_Urt3norm.mat
 
-* surface sag bending modes, aka, ray trace bending modes. Most of the time, for people who do not care about the difference between surface sag vs. surface normal vs z-displacement, these are simply known as bendnig modes. These are obtained using results from the surface normal modes: modes = Udn3norm./c, forces are unchanged. The varialbes inside are 'Urt3norm','Vrt3norm','x','y','XACT','YACT'. Urt3norm is 5256x156, each column for 1 bending mode. 5256 is number of FEA nodes. Vrt3norm is 156x156, each column is a force vector for 1 bending mode. x and y give the coordinates of each FEA node. XACT and YACT are the coordinates of each actuator.
+* surface sag bending modes, aka, ray trace bending modes. Most of the time, for people who do not care about the difference between surface sag vs. surface normal vs z-displacement, these are simply known as bending modes. These are obtained using results from the surface normal modes: modes = Udn3norm./c, forces are unchanged. The varialbes inside are 'Urt3norm','Vrt3norm','x','y','XACT','YACT'. Urt3norm is 5256x156, each column for 1 bending mode. 5256 is number of FEA nodes. Vrt3norm is 156x156, each column is a force vector for 1 bending mode. x and y give the coordinates of each FEA node. XACT and YACT are the coordinates of each actuator.
 
 The bending modes and forces after the Mirror Lab Testing are found in the M1M3_ML repo (only here, mode 20 is swapped with 27)
 
