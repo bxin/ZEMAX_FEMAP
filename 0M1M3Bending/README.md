@@ -6,10 +6,10 @@
 
 * node500xxx.csv where xxx is one of the 156 actuator IDs. These give the forces for each balanced unit load cases. There is one actuator with 1000N. The rest of the actuators sum up to -1000N. Each file has two columns. First column is the 500xxx, where xxx is the actuator ID. 2nd column are the forces.
 
-1surfaceNormalBendingModes/  
+1surfaceNormalBendingModes/
 https://github.com/lsst-sitcom/M1M3_ML/blob/master/data/myUdn3norm_156.mat
 
-* surface normal bending modes. These are obtained by projecting the T1T2T3 data onto surface normal, subtract PTT separately from M1 and M3, then SVD. The variables inside are 'Udn3norm','Vdn3norm','Gdn','x','y','c','annulus'. Udn3norm is 5256x156, each column for 1 bending mode. 5256 is number of FEA nodes. Vdn3norm is 156x156, each column is a force vector for 1 bending mode. x and y give the coordinates of each FEA node. c is the cosine of the angle between the surface normal and z for each FEA node. annulus is a mask, containing 1 or 3, indicating each FEA node is on M1 or M3. The bending modes and forces are normalized so that the each bending mode has a surface RMS of 1um.
+* surface normal bending modes. These are obtained by projecting the T1T2T3 data onto surface normal, subtract PTT separately from M1 and M3, then SVD. The variables inside are 'Udn3norm','Vdn3norm','Gdn','x','y','dnx','dny','dnz','annulus'. Udn3norm is 5256x156, each column for 1 bending mode. 5256 is number of FEA nodes. Vdn3norm is 156x156, each column is a force vector for 1 bending mode. x and y give the coordinates of each FEA node. dnx, dny, and dnz are the projections of the unit-length surface-normal vector on each FEA node onto the x, y, and z axis, respectively. annulus is a mask, containing 1 or 3, indicating each FEA node is on M1 or M3. The bending modes and forces are normalized so that the each bending mode has a surface RMS of 1um.
 
 2bendingModes/m1m3_Urt3norm.mat
 
